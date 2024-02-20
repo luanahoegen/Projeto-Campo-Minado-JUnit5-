@@ -1,2 +1,5 @@
-package org.example.excecao;public class ExplosaoException {
+package org.example.excecao;
+
+public class ExplosaoException extends RuntimeException{
+    private static final long serialVersionUID = 1L;
 }
